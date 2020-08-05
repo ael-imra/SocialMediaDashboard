@@ -8,7 +8,6 @@ import SMediaAPI from "../API/SocialMedia.json";
 import SMediaOverviewAPI from "../API/SocialMediaOverview.json";
 function SMediaContainer() {
   const { changeTheme } = useContext(ThemeContext);
-  console.log(SMediaOverviewAPI);
   return (
     <div className="SMediaContainer">
       <SMediaTitle TotalFollowers={23004} {...{ changeTheme }}>
