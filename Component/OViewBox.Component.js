@@ -22,7 +22,11 @@ function OViewBox(props) {
         <img src={props.OViewBoxTitleIcon} alt="OViewBoxTitleText" />
       </div>
       <div className="OViewBoxDetails">
-        <span>{props.OViewBoxDetailsCount}</span>
+        <span>
+            {props.OViewBoxDetailsCount >= 10000
+            ? props.OViewBoxDetailsCount / 1000 + "k"
+            : props.OViewBoxDetailsCount}{" "}
+        </span>
         <span style={{ color: DetailsUpdate[sign].color }}>
           {DetailsUpdate[sign].htmlCode}
           {props.OViewBoxDetailsUpdate}%
