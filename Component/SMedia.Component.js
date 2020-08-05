@@ -25,7 +25,7 @@ function SMediaBox(props) {
       </div>
       <div className="SMediaBoxFollowers">
         <span className="SMediaBoxFollowersCount">
-          {props.FollowersCount > 10000
+          {props.FollowersCount >= 10000
             ? props.FollowersCount / 1000 + "k"
             : props.FollowersCount}{" "}
         </span>
