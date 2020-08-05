@@ -1,0 +1,45 @@
+.OViewBox {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  width: 300px;
+  height: 100px;
+  color: var(--color-Text);
+  border-radius: 7px;
+  background: var(--color-Box);
+  box-sizing: border-box;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+.OViewBox:hover {
+  background: var(--color-BoxHover);
+}
+.OViewBoxTitle,
+.OViewBoxDetails {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  font-weight: bold;
+}
+.OViewBoxTitle img {
+  width: 25px;
+  height: 25px;
+}
+.OViewBoxDetails > span:first-child {
+  font-size: 30px;
+  color: var(--color-Title);
+}
+.OViewBoxDetails span:last-child {
+  font-size: 12px;
+}
+.OViewTitle {
+  width: 97%;
+  color: var(--color-Title);
+  font-size: 35px;
+  padding: 0 0 10px 20px;
+  box-sizing: border-box;
+  margin: 10px auto;
+}

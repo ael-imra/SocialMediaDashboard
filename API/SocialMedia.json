@@ -1,0 +1,34 @@
+{
+  "1": {
+    "Background": "#3088D9",
+    "SMediaIcon": "https://uploads.codesandbox.io/uploads/user/8cd5d185-ad1b-4755-b4aa-fe296fa3ea3a/V7HJ-facebook.png",
+    "SMediaName": "nathanf",
+    "FollowersCount": 1987,
+    "FollowersText": "followers",
+    "FollowersUpdate": 12
+  },
+  "2": {
+    "Background": "#3088D9",
+    "SMediaIcon": "https://uploads.codesandbox.io/uploads/user/8cd5d185-ad1b-4755-b4aa-fe296fa3ea3a/mFjD-twitter.png",
+    "SMediaName": "nathanf",
+    "FollowersCount": 1044,
+    "FollowersText": "followers",
+    "FollowersUpdate": 99
+  },
+  "3": {
+    "Background": "linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%)",
+    "SMediaIcon": "https://uploads.codesandbox.io/uploads/user/8cd5d185-ad1b-4755-b4aa-fe296fa3ea3a/mqv9-instagram.png",
+    "SMediaName": "realnathanf",
+    "FollowersCount": 11000,
+    "FollowersText": "followers",
+    "FollowersUpdate": 1099
+  },
+  "4": {
+    "Background": "red",
+    "SMediaIcon": "https://uploads.codesandbox.io/uploads/user/8cd5d185-ad1b-4755-b4aa-fe296fa3ea3a/S_AZ-youtube.png",
+    "SMediaName": "realnathanf",
+    "FollowersCount": 8239,
+    "FollowersText": "Nathan F.",
+    "FollowersUpdate": -144
+  }
+}

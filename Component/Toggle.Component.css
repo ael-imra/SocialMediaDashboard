@@ -1,0 +1,33 @@
+.Toggle {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.ToggleText {
+  color: var(--color-Text);
+  margin: 5px;
+}
+.ToggleBox {
+  position: relative;
+  width: 50px;
+  height: 25px;
+  background: var(--color-ToggleBox);
+  border-radius: 30px;
+  cursor: pointer;
+  margin: 5px;
+}
+.ToggleBox .ToggleSwitcher {
+  position: absolute;
+  transform: var(--translate-toggleSwitcher);
+  width: 25px;
+  height: 23px;
+  border-radius: 50%;
+  background-color: var(--color-Toggleswitcher);
+  margin: 1px;
+}
+@media (max-width: 600px) {
+  .Toggle {
+    width: 100%;
+  }
+}

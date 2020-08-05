@@ -1,0 +1,11 @@
+.SMediaContainer {
+  display: flex;
+  flex-flow: column;
+  min-height: 100%;
+}
+.SMediaBoxContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  transform: translateY(-20px);
+}

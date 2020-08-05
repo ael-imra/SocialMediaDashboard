@@ -1,0 +1,50 @@
+{
+  "1": {
+    "OViewBoxTitleText": "Page Views",
+    "OViewBoxTitleIcon": "https://uploads.codesandbox.io/uploads/user/8cd5d185-ad1b-4755-b4aa-fe296fa3ea3a/V7HJ-facebook.png",
+    "OViewBoxDetailsCount": 87,
+    "OViewBoxDetailsUpdate": 3
+  },
+  "2": {
+    "OViewBoxTitleText": "Likes",
+    "OViewBoxTitleIcon": "https://uploads.codesandbox.io/uploads/user/8cd5d185-ad1b-4755-b4aa-fe296fa3ea3a/V7HJ-facebook.png",
+    "OViewBoxDetailsCount": 52,
+    "OViewBoxDetailsUpdate": -2
+  },
+  "3": {
+    "OViewBoxTitleText": "Likes",
+    "OViewBoxTitleIcon": "https://uploads.codesandbox.io/uploads/user/8cd5d185-ad1b-4755-b4aa-fe296fa3ea3a/mqv9-instagram.png",
+    "OViewBoxDetailsCount": 5462,
+    "OViewBoxDetailsUpdate": 2257
+  },
+  "4": {
+    "OViewBoxTitleText": "Profile Views",
+    "OViewBoxTitleIcon": "https://uploads.codesandbox.io/uploads/user/8cd5d185-ad1b-4755-b4aa-fe296fa3ea3a/mqv9-instagram.png",
+    "OViewBoxDetailsCount": 52000,
+    "OViewBoxDetailsUpdate": 1375
+  },
+  "5": {
+    "OViewBoxTitleText": "Retweets",
+    "OViewBoxTitleIcon": "https://uploads.codesandbox.io/uploads/user/8cd5d185-ad1b-4755-b4aa-fe296fa3ea3a/mFjD-twitter.png",
+    "OViewBoxDetailsCount": 117,
+    "OViewBoxDetailsUpdate": 303
+  },
+  "6": {
+    "OViewBoxTitleText": "Likes",
+    "OViewBoxTitleIcon": "https://uploads.codesandbox.io/uploads/user/8cd5d185-ad1b-4755-b4aa-fe296fa3ea3a/mFjD-twitter.png",
+    "OViewBoxDetailsCount": 507,
+    "OViewBoxDetailsUpdate": 553
+  },
+  "7": {
+    "OViewBoxTitleText": "Likes",
+    "OViewBoxTitleIcon": "https://uploads.codesandbox.io/uploads/user/8cd5d185-ad1b-4755-b4aa-fe296fa3ea3a/S_AZ-youtube.png",
+    "OViewBoxDetailsCount": 107,
+    "OViewBoxDetailsUpdate": -19
+  },
+  "8": {
+    "OViewBoxTitleText": "Total Views",
+    "OViewBoxTitleIcon": "https://uploads.codesandbox.io/uploads/user/8cd5d185-ad1b-4755-b4aa-fe296fa3ea3a/S_AZ-youtube.png",
+    "OViewBoxDetailsCount": 1407,
+    "OViewBoxDetailsUpdate": -12
+  }
+}
