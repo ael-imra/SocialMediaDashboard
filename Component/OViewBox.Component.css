@@ -1,45 +1,96 @@
-.OViewBox {
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  width: 300px;
-  height: 100px;
-  color: var(--color-Text);
-  border-radius: 7px;
-  background: var(--color-Box);
-  box-sizing: border-box;
-  padding: 10px 20px;
-  margin: 10px;
-  cursor: pointer;
+.SMediaBox {
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 300px;
+    height: 190px;
+    margin: 10px;
+    background: var(--color-Box);
+    color: var(--color-Text);
+    border-radius: 7px;
+    overflow: hidden;
+    cursor: pointer;
 }
-.OViewBox:hover {
-  background: var(--color-BoxHover);
+.SMediaBox:hover {
+    background: var(--color-BoxHover);
 }
-.OViewBoxTitle,
-.OViewBoxDetails {
-  display: flex;
-  flex-flow: row;
-  justify-content: space-between;
-  align-items: center;
-  margin: 10px;
-  font-weight: bold;
+.SMediaBoxSMedia {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
 }
-.OViewBoxTitle img {
-  width: 25px;
-  height: 25px;
+.SMediaBoxSMedia img {
+    width: 20px;
+    height: 20px;
+    margin: 2px 5px;
 }
-.OViewBoxDetails > span:first-child {
-  font-size: 30px;
-  color: var(--color-Title);
+.SMediaBoxSMedia span {
+    margin: 2px 5px;
+    font-weight: bold;
 }
-.OViewBoxDetails span:last-child {
-  font-size: 12px;
+.SMediaBoxFollowers {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
 }
-.OViewTitle {
-  width: 97%;
-  color: var(--color-Title);
-  font-size: 35px;
-  padding: 0 0 10px 20px;
-  box-sizing: border-box;
-  margin: 10px auto;
+.SMediaBoxFollowersCount {
+    font-size: 55px;
+    color: var(--color-SMediaBoxFollowersCount);
+}
+.SMediaBoxFollowerText {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.SMediaBoxFollowersUpdate {
+    color: var(--color-FAnalysis);
+    font-size: 14px;
+}
+.SMediaBoxBorder {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 6px;
+}
+.SMediaTitle {
+    box-sizing: border-box;
+    width: 97%;
+    min-height: 150px;
+    background: var(--color-SMediaTitle);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 10px 20px;
+    margin: auto;
+}
+.SMediaTitleBox {
+    display: flex;
+    flex-flow: column;
+    margin: 5px;
+    color: var(--color-Text);
+}
+.SMediaTitleBox span:first-child {
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--color-Title);
+}
+.LineBreak {
+    width: 100%;
+    border-color: var(--color-Text);
+    display: none;
+}
+@media (max-width: 600px) {
+    .SMediaBoxSMedia {
+        width: 100%;
+    }
+    .SMediaTitleBox span:first-child {
+        font-size: 20px;
+    }
+    .LineBreak {
+        display: block;
+    }
 }

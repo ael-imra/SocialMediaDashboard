@@ -1,93 +1,96 @@
 .SMediaBox {
-  position: relative;
-  display: flex;
-  flex-flow: column;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 300px;
-  height: 190px;
-  margin: 10px;
-  background: var(--color-Box);
-  color: var(--color-Text);
-  border-radius: 7px;
-  overflow: hidden;
-  cursor: pointer;
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 300px;
+    height: 190px;
+    margin: 10px;
+    background: var(--color-Box);
+    color: var(--color-Text);
+    border-radius: 7px;
+    overflow: hidden;
+    cursor: pointer;
 }
 .SMediaBox:hover {
-  background: var(--color-BoxHover);
+    background: var(--color-BoxHover);
 }
 .SMediaBoxSMedia {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
 }
 .SMediaBoxSMedia img {
-  width: 20px;
-  height: 20px;
-  margin: 2px 5px;
+    width: 20px;
+    height: 20px;
+    margin: 2px 5px;
 }
 .SMediaBoxSMedia span {
-  margin: 2px 5px;
-  font-weight: bold;
+    margin: 2px 5px;
+    font-weight: bold;
 }
 .SMediaBoxFollowers {
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
 }
 .SMediaBoxFollowersCount {
-  font-size: 55px;
-  color: var(--color-SMediaBoxFollowersCount);
+    font-size: 55px;
+    color: var(--color-SMediaBoxFollowersCount);
 }
 .SMediaBoxFollowerText {
-  letter-spacing: 3px;
-  text-transform: uppercase;
+    letter-spacing: 3px;
+    text-transform: uppercase;
 }
 .SMediaBoxFollowersUpdate {
-  color: var(--color-FAnalysis);
-  font-size: 14px;
+    color: var(--color-FAnalysis);
+    font-size: 14px;
 }
 .SMediaBoxBorder {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 6px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 6px;
 }
 .SMediaTitle {
-  box-sizing: border-box;
-  width: 97%;
-  min-height: 150px;
-  background: var(--color-SMediaTitle);
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 20px 10px 20px;
-  margin: auto;
+    box-sizing: border-box;
+    width: 97%;
+    min-height: 150px;
+    background: var(--color-SMediaTitle);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 10px 20px;
+    margin: auto;
 }
 .SMediaTitleBox {
-  display: flex;
-  flex-flow: column;
-  margin: 5px;
-  color: var(--color-Text);
+    display: flex;
+    flex-flow: column;
+    margin: 5px;
+    color: var(--color-Text);
 }
 .SMediaTitleBox span:first-child {
-  font-size: 35px;
-  font-weight: bold;
-  color: var(--color-Title);
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--color-Title);
 }
 .LineBreak {
-  width: 100%;
-  border-color: var(--color-Text);
-  display: none;
+    width: 100%;
+    border-color: var(--color-Text);
+    display: none;
 }
 @media (max-width: 600px) {
-  .SMediaBoxSMedia {
-    width: 100%;
-  }
-  .LineBreak {
-    display: block;
-  }
+    .SMediaBoxSMedia {
+        width: 100%;
+    }
+    .SMediaTitleBox span:first-child {
+        font-size: 20px;
+    }
+    .LineBreak {
+        display: block;
+    }
 }
